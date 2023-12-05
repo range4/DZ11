@@ -1,11 +1,11 @@
 ﻿using System;
-namespace Lab14
+namespace KFU11
 {
-	public class AttributeCheck
-	{
-		public AttributeCheck()
-		{
-		}
-	}
+    internal class AttributeCheck
+    {
+        public static void CheckDumpToScreen(Bank account)
+        {
+            account.DumpToScreen();
+        }
+    }
 }
-
